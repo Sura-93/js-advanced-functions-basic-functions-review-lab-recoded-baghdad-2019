@@ -7,12 +7,18 @@ let mondayWork = function (string ="go to the office") {
     return `This Monday, I will ${string}.`;
 }
 
-function wrapAdjective(adjective="*") {
+function wrapAdjective(adjective='*') {
 //innrerfunction
     return function (thing ="special") {
 
         return `You are ${adjective}${thing}${adjective}!`;
 }
 }
-wrapAdjective("||")("a dedicated programmer")
+wrapAdjective("%")("a dedicated programmer");
 
+let Calculator = {
+
+  add:function() {
+
+    return 1+ 3;
+  }};
