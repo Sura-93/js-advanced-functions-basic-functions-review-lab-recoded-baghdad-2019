@@ -23,12 +23,12 @@ let Calculator = {
     return 1+ 3;
   }
 subtract:function() {
-  return 1 -3;
+  return 1 - 3;
 }
 multiply:function () {
-return  1*3;
+return  1 * 3;
 }
 divide:function () {
-  return 10/5;
+  return 10 / 5;
 }
 };
